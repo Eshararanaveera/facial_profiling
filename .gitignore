@@ -1,0 +1,27 @@
+# Python Environment & Cache
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch Trained Models & Weights (.pth, .pkl)
+models/
+*.pth
+*.pt
+*.pkl
+
+# Outputs & Training Logs / Confusion Matrices
+outputs/
+*.log
+*.png
+*.json
+
+# Datasets & Raw Images (මෙන්න මේකයි වැදගත් - මුළු data folder එකම ignore කිරීම)
+data/
+*.zip
+
+# Visual Studio Code & IDE Configs
+.vscode/
+.idea/
+.DS_Store
